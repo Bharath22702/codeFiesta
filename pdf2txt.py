@@ -1,6 +1,6 @@
 import PyPDF2
 
-a = PyPDF2.PdfFileReader('Sample.pdf')
+a = PyPDF2.PdfFileReader('cp2.pdf')
 str = ""
 for i in range(a.getNumPages()):
     str += a.getPage(i).extract_text()
