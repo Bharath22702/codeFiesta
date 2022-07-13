@@ -10,6 +10,6 @@ First copy the pdf to be parsed to the same folder as these files.
 Make sure the copy is translated through google translate.
 
 Then Run the py2txt.py
-This extracts the words from each page of the pdf
-Then run the 
+This extracts the words from each page of the pdf.
+Then run the txt2json.py, this converts the text file to required json format.
 
