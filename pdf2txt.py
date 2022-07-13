@@ -1,6 +1,6 @@
 import PyPDF2
 
-a = PyPDF2.PdfFileReader('cp2.pdf')
+a = PyPDF2.PdfFileReader('ksam.pdf')
 str = ""
 for i in range(a.getNumPages()):
     str += a.getPage(i).extract_text()
